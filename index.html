@@ -427,53 +427,49 @@
       <!-- 
         - #ABOUT
       -->
-
       <section class="section about text-center" aria-labelledby="about-label" id="about">
         <div class="container">
-
           <div class="about-content">
-
             <p class="label-2 section-subtitle" id="about-label">Our Story</p>
-
             <h2 class="headline-1 section-title">Flavor of Nepal In Sydney</h2>
-
             <p class="section-text">
               Join us at The Delight Corner Restaurant and let us take you on a culinary journey through the flavors of Nepal. Your table awaits.
             </p>
-
             <div class="contact-label">Book Through Call</div>
-
             <a href="tel:+804001234567" class="body-1 contact-number hover-underline">0452575573</a>
-
-            <a href="#" class="btn btn-primary">
+            <p class="section-text">
+              The Delight Corner Restaurant is a family-owned establishment that brings the authentic flavors of Nepal to Sydney. With our roots in the rich culinary traditions of Nepal, we strive to provide our guests with an unforgettable dining experience. Our menu features a diverse selection of Nepalese dishes, prepared with the freshest ingredients and traditional cooking techniques. Whether you're craving momo dumplings, hearty curries, or savory tandoori dishes, you'll find something to delight your palate at The Delight Corner. Our warm and welcoming atmosphere, coupled with attentive service, ensures that every visit is a memorable one. Come join us and experience the true flavor of Nepal in Sydney.
+            </p>
+            <a href="#" class="btn btn-primary" id="readMoreBtn">
               <span class="text text-1">Read More</span>
-
               <span class="text text-2" aria-hidden="true">Read More</span>
             </a>
-
           </div>
-
           <figure class="about-banner">
-
-            <img src="./assets/images/about-banner.jpg" width="570" height="570" loading="lazy" alt="about banner"
-              class="w-100" data-parallax-item data-parallax-speed="1">
-
+            <img src="./assets/images/about-banner.jpg" width="570" height="570" loading="lazy" alt="about banner" class="w-100" data-parallax-item data-parallax-speed="1">
             <div class="abs-img abs-img-1 has-before" data-parallax-item data-parallax-speed="1.75">
-              <img src="./assets/images/about-abs-image.jpg" width="285" height="285" loading="lazy" alt=""
-                class="w-100">
+              <img src="./assets/images/about-abs-image.jpg" width="285" height="285" loading="lazy" alt="" class="w-100">
             </div>
-
             <div class="abs-img abs-img-2 has-before">
               <img src="./assets/images/badge-2.png" width="133" height="134" loading="lazy" alt="">
             </div>
-
           </figure>
-
           <img src="./assets/images/shape-3.png" width="197" height="194" loading="lazy" alt="" class="shape">
-
         </div>
+      
+        <!-- Modal Popup -->
+        <div id="myModal" class="modal">
+          <div class="modal-content">
+            <span class="close">&times;</span>
+            <p>        The Delight Corner Restaurant offers an unforgettable dining experience with its authentic Nepalese cuisine. Our menu features a diverse selection of dishes, prepared with fresh ingredients and traditional cooking techniques. Join us for a culinary journey through the flavors of Nepal!
+            </p>
+          </div>
+        </div>
+      
+        <!-- Background Overlay -->
+        <div id="overlay"></div>
       </section>
-
+      
 
 
 
@@ -661,7 +657,7 @@
             During winter daily from <span class="span">7:00 pm</span> to <span class="span">9:00 pm</span>
           </p>
 
-          <a href="#" class="btn btn-primary">
+          <a href="#menu"   class="btn btn-primary">
             <span class="text text-1">View All Menu</span>
 
             <span class="text text-2" aria-hidden="true">View All Menu</span>
