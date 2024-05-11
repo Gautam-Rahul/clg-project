@@ -1193,7 +1193,7 @@
   
   .input-field[type="date"] {
     text-transform: uppercase;
-    padding-inline-end: 10px;
+    padding-inline-end: 700px;
   }
   
   .input-field[type="date"]::-webkit-calendar-picker-indicator { opacity: 0; }
